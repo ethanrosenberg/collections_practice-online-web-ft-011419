@@ -22,4 +22,9 @@ def kesha_maker(strings)
   arr = []
   counter = 0;
   strings.each do |string|
+    string.each do |char|
+      if counter != 3
+        arr << char
+      else
+        arr << "$"
     
