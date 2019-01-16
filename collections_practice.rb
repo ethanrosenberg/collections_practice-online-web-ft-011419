@@ -27,4 +27,9 @@ def kesha_maker(strings)
         arr << char
       else
         arr << "$"
+      end
+      
+    end
+  end  
+  
     
