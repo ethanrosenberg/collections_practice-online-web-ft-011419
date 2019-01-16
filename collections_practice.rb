@@ -29,6 +29,7 @@ def kesha_maker(strings)
       else
         arr << "$"
       end
+      counter++
     end
   end  
   arr
