@@ -20,8 +20,9 @@ end
 
 def kesha_maker(strings)
   arr = []
-  counter = 0;
+  
   strings.each do |string|
+    counter = 0;
     string.each do |char|
       if counter != 3
         arr << char
@@ -31,5 +32,6 @@ def kesha_maker(strings)
       
     end
   end  
+  arr
   
     
