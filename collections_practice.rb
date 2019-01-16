@@ -20,5 +20,6 @@ end
 
 def kesha_maker(strings)
   arr = []
+  counter = 0;
   strings.each do |string|
     
