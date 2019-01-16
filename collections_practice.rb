@@ -17,3 +17,8 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_maker(strings)
+  arr = []
+  strings.each do |string|
+    
