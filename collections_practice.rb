@@ -11,8 +11,6 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(array)
-  newarr = []
   array.insert(2, array.delete_at(1))
 end
   
-puts swap_elements([1,2,3,4,5,6,7,8])
