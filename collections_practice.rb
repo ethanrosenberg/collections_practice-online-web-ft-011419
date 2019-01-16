@@ -13,3 +13,5 @@ end
 def swap_elements(array)
   newarr = []
   array.insert(2, array.delete_at(3))
+end
+  
